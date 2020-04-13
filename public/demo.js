@@ -31,7 +31,7 @@ MetroDemo.prototype.addOldContent = function addOldContent() {
     document.head.appendChild($fragment);
     setTimeout(() => {
         this.addNewContent();
-    }, 3000);
+    }, 7000);
 }
 
 MetroDemo.prototype.init = function init() {
